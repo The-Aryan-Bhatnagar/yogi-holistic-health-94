@@ -47,11 +47,11 @@ const Footer = () => {
           <div>
             <h3 className="text-lg font-semibold mb-4">Programs</h3>
             <ul className="space-y-2 text-sm text-primary-foreground/80">
-              <li>Heart Yoga Pranayama</li>
-              <li>Therapeutic Yoga Programs</li>
-              <li>Chanting Yoga</li>
-              <li>Kundalini Meditation</li>
-              <li>Workplace Yoga</li>
+              <li><Link to="/heart-yoga" className="hover:text-accent transition-colors">Heart Yoga Pranayama</Link></li>
+              <li><Link to="/therapeutic-yoga" className="hover:text-accent transition-colors">Therapeutic Yoga Programs</Link></li>
+              <li><Link to="/chanting-yoga" className="hover:text-accent transition-colors">Chanting Yoga</Link></li>
+              <li><Link to="/kundalini-meditation" className="hover:text-accent transition-colors">Kundalini Meditation</Link></li>
+              <li><Link to="/workplace-yoga" className="hover:text-accent transition-colors">Workplace Yoga</Link></li>
             </ul>
           </div>
         </div>
