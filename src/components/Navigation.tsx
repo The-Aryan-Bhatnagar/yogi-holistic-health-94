@@ -11,7 +11,6 @@ const Navigation = () => {
     { name: "Home", path: "/" },
     { name: "About", path: "/about" },
     { name: "Yoga & Wellness", path: "/yoga-wellness" },
-    { name: "Services", path: "/services" },
     { name: "Media", path: "/media" },
     { name: "Contact", path: "/contact" },
   ];
@@ -25,7 +24,7 @@ const Navigation = () => {
           {/* Logo */}
           <Link to="/" className="flex items-center space-x-2 font-bold text-xl text-primary">
             <Heart className="h-6 w-6 text-accent" />
-            <span>YogaPhysician</span>
+            <span>chantinyoga</span>
           </Link>
 
           {/* Desktop Navigation */}

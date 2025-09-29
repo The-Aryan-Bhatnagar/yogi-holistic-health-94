@@ -103,7 +103,7 @@ const Contact = () => {
                   <Mail className="h-6 w-6 text-primary" />
                   <div>
                     <p className="font-medium">Email</p>
-                    <p className="text-muted-foreground">info@yogaphysician.com</p>
+                    <p className="text-muted-foreground">info@chantinyoga.com</p>
                   </div>
                 </div>
                 
@@ -154,7 +154,7 @@ const Contact = () => {
           <div className="text-center mb-12">
             <h2 className="text-4xl font-bold text-primary mb-4">Patient Testimonials</h2>
             <p className="text-lg text-muted-foreground">
-              Real stories from patients who have experienced transformation through YogaPhysician programs
+              Real stories from patients who have experienced transformation through chantinyoga programs
             </p>
           </div>
 

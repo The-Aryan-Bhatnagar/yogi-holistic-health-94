@@ -11,7 +11,7 @@ const About = () => {
         {/* Header */}
         <div className="text-center mb-16">
           <h1 className="text-5xl font-bold text-primary mb-4">About Dr. Juhi Gautam</h1>
-          <p className="text-xl text-muted-foreground">MBBS, MRCP, MRCGP - YogaPhysician</p>
+          <p className="text-xl text-muted-foreground">MBBS, MRCP, MRCGP - chantinyoga</p>
         </div>
 
         {/* Doctor Profile Section */}
@@ -170,10 +170,10 @@ const About = () => {
             <p className="text-muted-foreground">
               Meditation is not recommended in depression with suicidal ideations and psychosis. In such cases, help must 
               be sought from your GP or hospital physician to deal with the acute presentation. 
-              <strong> Your yogaphysician is not your GP.</strong>
+              <strong> Your chantinyoga practitioner is not your GP.</strong>
             </p>
             <p className="text-muted-foreground">
-              Please consult your yogaphysician before starting yoga and meditation. Yoga is not an immediate or quick 
+              Please consult your chantinyoga practitioner before starting yoga and meditation. Yoga is not an immediate or quick 
               remedy to any physical and mental problem. It is recommended that one gets the training from trained 
               personnel with adequate personal experience.
             </p>

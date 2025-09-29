@@ -36,7 +36,7 @@ const Index = () => {
       <section className="py-20 bg-gradient-secondary">
         <div className="max-w-6xl mx-auto px-4 text-center">
           <h2 className="text-4xl font-bold text-primary mb-8">
-            Welcome to YogaPhysician
+            Welcome to chantinyoga
           </h2>
           <div className="max-w-4xl mx-auto mb-12">
             <p className="text-lg text-muted-foreground mb-6">

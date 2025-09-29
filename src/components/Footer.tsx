@@ -10,7 +10,7 @@ const Footer = () => {
           <div className="col-span-1 md:col-span-2">
             <div className="flex items-center space-x-2 mb-4">
               <Heart className="h-8 w-8 text-accent" />
-              <span className="text-2xl font-bold">YogaPhysician</span>
+              <span className="text-2xl font-bold">chantinyoga</span>
             </div>
             <p className="text-primary-foreground/80 max-w-md mb-4">
               Integrating traditional yoga science with modern medicine for holistic healing. 
@@ -19,7 +19,7 @@ const Footer = () => {
             <div className="space-y-2 text-sm">
               <div className="flex items-center space-x-2">
                 <Mail className="h-4 w-4" />
-                <span>info@yogaphysician.com</span>
+                <span>info@chantinyoga.com</span>
               </div>
               <div className="flex items-center space-x-2">
                 <Phone className="h-4 w-4" />
@@ -38,7 +38,7 @@ const Footer = () => {
             <ul className="space-y-2 text-sm">
               <li><Link to="/about" className="hover:text-accent transition-colors">About Dr. Juhi</Link></li>
               <li><Link to="/yoga-wellness" className="hover:text-accent transition-colors">Yoga & Wellness</Link></li>
-              <li><Link to="/services" className="hover:text-accent transition-colors">Consultation</Link></li>
+              
               <li><Link to="/contact" className="hover:text-accent transition-colors">Contact Us</Link></li>
             </ul>
           </div>
@@ -57,7 +57,7 @@ const Footer = () => {
         </div>
 
         <div className="border-t border-primary-foreground/20 mt-8 pt-8 text-center text-sm text-primary-foreground/60">
-          <p>&copy; 2024 YogaPhysician. All rights reserved. | Dr. Juhi Gautam, MBBS, MRCP, MRCGP</p>
+          <p>&copy; 2024 chantinyoga. All rights reserved. | Dr. Juhi Gautam, MBBS, MRCP, MRCGP</p>
         </div>
       </div>
     </footer>
