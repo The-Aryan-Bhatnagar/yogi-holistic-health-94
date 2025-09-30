@@ -442,12 +442,12 @@ const Media = () => {
   return (
     <div className="min-h-screen">
       {/* Hero Section */}
-      <section className="py-20 bg-gradient-secondary">
+      <section className="py-12 md:py-20 bg-gradient-secondary">
         <div className="max-w-6xl mx-auto px-4 text-center">
-          <h1 className="text-5xl font-bold text-primary mb-6">
+          <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold text-primary mb-4 md:mb-6">
             Media & Resources
           </h1>
-          <p className="text-xl text-muted-foreground max-w-3xl mx-auto mb-8">
+          <p className="text-base sm:text-lg md:text-xl text-muted-foreground max-w-3xl mx-auto mb-6 md:mb-8">
             Explore our comprehensive collection of audio meditations, video tutorials, and 
             educational images to support your yoga and wellness journey.
           </p>
@@ -459,9 +459,9 @@ const Media = () => {
       </section>
 
       {/* Audio Section */}
-      <section className="py-20">
+      <section className="py-12 md:py-20">
         <div className="max-w-6xl mx-auto px-4">
-          <div className="text-center mb-16">
+          <div className="text-center mb-8 md:mb-16">
             <h2 className="text-4xl font-bold text-primary mb-4">
               Audio Library
             </h2>

@@ -9,15 +9,15 @@ const Index = () => {
     <div className="min-h-screen">
       {/* Hero Section */}
       <section 
-        className="relative h-screen flex items-center justify-center bg-cover bg-center"
+        className="relative min-h-[80vh] md:min-h-screen flex items-center justify-center bg-cover bg-center"
         style={{ backgroundImage: `url(${heroImage})` }}
       >
         <div className="absolute inset-0 bg-gradient-hero"></div>
-        <div className="relative z-10 text-center text-white max-w-4xl mx-auto px-4">
-          <h1 className="text-5xl md:text-7xl font-bold mb-6">
+        <div className="relative z-10 text-center text-white max-w-4xl mx-auto px-4 py-12">
+          <h1 className="text-3xl sm:text-4xl md:text-6xl lg:text-7xl font-bold mb-4 md:mb-6">
             Yoga for Health, Mind, and Balance
           </h1>
-          <p className="text-xl md:text-2xl mb-8 opacity-90">
+          <p className="text-base sm:text-lg md:text-xl lg:text-2xl mb-6 md:mb-8 opacity-90">
             Integrating ancient yoga wisdom with modern medical expertise for complete healing
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
@@ -33,13 +33,13 @@ const Index = () => {
       </section>
 
       {/* Introduction Section */}
-      <section className="py-20 bg-gradient-secondary">
+      <section className="py-12 md:py-20 bg-gradient-secondary">
         <div className="max-w-6xl mx-auto px-4 text-center">
-          <h2 className="text-4xl font-bold text-primary mb-8">
+          <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-primary mb-6 md:mb-8">
             Welcome to chantinyoga
           </h2>
-          <div className="max-w-4xl mx-auto mb-12">
-            <p className="text-lg text-muted-foreground mb-6">
+          <div className="max-w-4xl mx-auto mb-8 md:mb-12">
+            <p className="text-base sm:text-lg text-muted-foreground mb-4 md:mb-6">
               <strong>Quality of life</strong> is desired and expected, however, a serious question needs to be answered – 
               <strong> "How much have we achieved and at what cost"</strong>.
             </p>
@@ -88,13 +88,13 @@ const Index = () => {
       </section>
 
       {/* Benefits Section */}
-      <section className="py-20">
+      <section className="py-12 md:py-20">
         <div className="max-w-6xl mx-auto px-4">
-          <div className="text-center mb-16">
-            <h2 className="text-4xl font-bold text-primary mb-4">
+          <div className="text-center mb-8 md:mb-16">
+            <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-primary mb-4">
               Yoga Helps With
             </h2>
-            <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
+            <p className="text-base sm:text-lg text-muted-foreground max-w-2xl mx-auto">
               Evidence-based medicine has found yoga efficacious in treating various chronic conditions
             </p>
           </div>
@@ -122,12 +122,12 @@ const Index = () => {
 
 
       {/* CTA Section */}
-      <section className="py-20 bg-gradient-primary text-primary-foreground">
+      <section className="py-12 md:py-20 bg-gradient-primary text-primary-foreground">
         <div className="max-w-4xl mx-auto px-4 text-center">
-          <h2 className="text-4xl font-bold mb-6">
+          <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-4 md:mb-6">
             Start Your Healing Journey Today
           </h2>
-          <p className="text-xl mb-8 opacity-90">
+          <p className="text-base sm:text-lg md:text-xl mb-6 md:mb-8 opacity-90">
             Experience personalized yoga therapy programs designed specifically for your health needs
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">

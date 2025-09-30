@@ -5,24 +5,24 @@ import { Heart, Brain, Briefcase, Flower2, Wind, BookOpen } from "lucide-react";
 
 const YogaWellness = () => {
   return (
-    <div className="py-12">
+    <div className="py-8 md:py-12">
       <div className="max-w-6xl mx-auto px-4">
         {/* Header */}
-        <div className="text-center mb-16">
-          <h1 className="text-5xl font-bold text-primary mb-4">Yoga & Wellness</h1>
-          <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
+        <div className="text-center mb-8 md:mb-16">
+          <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold text-primary mb-4">Yoga & Wellness</h1>
+          <p className="text-base sm:text-lg md:text-xl text-muted-foreground max-w-3xl mx-auto">
             Comprehensive yoga programs integrating traditional wisdom with modern medical understanding
           </p>
         </div>
 
         {/* Tabs for different sections */}
         <Tabs defaultValue="basics" className="w-full">
-          <TabsList className="grid w-full grid-cols-2 lg:grid-cols-5 mb-8">
-            <TabsTrigger value="basics">Yoga Basics</TabsTrigger>
-            <TabsTrigger value="medicine">Yoga as Medicine</TabsTrigger>
-            <TabsTrigger value="workplace">Workplace Yoga</TabsTrigger>
-            <TabsTrigger value="meditation">Meditation</TabsTrigger>
-            <TabsTrigger value="pranayama">Pranayama</TabsTrigger>
+          <TabsList className="grid w-full grid-cols-2 md:grid-cols-3 lg:grid-cols-5 mb-6 md:mb-8 h-auto gap-2">
+            <TabsTrigger value="basics" className="text-xs sm:text-sm px-2 py-2">Yoga Basics</TabsTrigger>
+            <TabsTrigger value="medicine" className="text-xs sm:text-sm px-2 py-2">Yoga as Medicine</TabsTrigger>
+            <TabsTrigger value="workplace" className="text-xs sm:text-sm px-2 py-2">Workplace Yoga</TabsTrigger>
+            <TabsTrigger value="meditation" className="text-xs sm:text-sm px-2 py-2">Meditation</TabsTrigger>
+            <TabsTrigger value="pranayama" className="text-xs sm:text-sm px-2 py-2">Pranayama</TabsTrigger>
           </TabsList>
 
           {/* Yoga Basics */}

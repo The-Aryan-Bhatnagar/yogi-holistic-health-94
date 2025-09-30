@@ -45,12 +45,12 @@ const Contact = () => {
   ];
 
   return (
-    <div className="py-12">
+    <div className="py-8 md:py-12">
       <div className="max-w-6xl mx-auto px-4">
         {/* Header */}
-        <div className="text-center mb-16">
-          <h1 className="text-5xl font-bold text-primary mb-4">Contact & Testimonials</h1>
-          <p className="text-xl text-muted-foreground">
+        <div className="text-center mb-8 md:mb-16">
+          <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold text-primary mb-4">Contact & Testimonials</h1>
+          <p className="text-base sm:text-lg md:text-xl text-muted-foreground">
             Get in touch with us and read what our patients have to say
           </p>
         </div>
@@ -151,9 +151,9 @@ const Contact = () => {
 
         {/* Testimonials Section */}
         <div>
-          <div className="text-center mb-12">
-            <h2 className="text-4xl font-bold text-primary mb-4">Patient Testimonials</h2>
-            <p className="text-lg text-muted-foreground">
+          <div className="text-center mb-8 md:mb-12">
+            <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-primary mb-4">Patient Testimonials</h2>
+            <p className="text-base sm:text-lg text-muted-foreground">
               Real stories from patients who have experienced transformation through chantinyoga programs
             </p>
           </div>

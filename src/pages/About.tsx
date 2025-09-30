@@ -6,12 +6,12 @@ import doctorPortrait from "@/assets/doctor-portrait.jpg";
 
 const About = () => {
   return (
-    <div className="py-12">
+    <div className="py-8 md:py-12">
       <div className="max-w-6xl mx-auto px-4">
         {/* Header */}
-        <div className="text-center mb-16">
-          <h1 className="text-5xl font-bold text-primary mb-4">About Dr. Juhi Gautam</h1>
-          <p className="text-xl text-muted-foreground">MBBS, MRCP, MRCGP - chantinyoga</p>
+        <div className="text-center mb-8 md:mb-16">
+          <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold text-primary mb-4">About Dr. Juhi Gautam</h1>
+          <p className="text-lg sm:text-xl text-muted-foreground">MBBS, MRCP, MRCGP - chantinyoga</p>
         </div>
 
         {/* Doctor Profile Section */}

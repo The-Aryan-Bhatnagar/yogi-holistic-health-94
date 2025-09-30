@@ -4,12 +4,12 @@ import { Brain, Heart, Clock, CheckCircle } from "lucide-react";
 
 const TherapeuticYoga = () => {
   return (
-    <div className="py-12">
+    <div className="py-8 md:py-12">
       <div className="max-w-4xl mx-auto px-4">
         {/* Header */}
-        <div className="text-center mb-16">
-          <h1 className="text-5xl font-bold text-primary mb-4">Therapeutic Yoga Programs</h1>
-          <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
+        <div className="text-center mb-8 md:mb-16">
+          <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold text-primary mb-4">Therapeutic Yoga Programs</h1>
+          <p className="text-base sm:text-lg md:text-xl text-muted-foreground max-w-3xl mx-auto">
             Evidence-based yoga therapy for anxiety, depression, and stress management
           </p>
         </div>
