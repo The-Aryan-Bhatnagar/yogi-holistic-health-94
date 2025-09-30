@@ -49,33 +49,36 @@ const Navigation = () => {
           <div className="md:hidden">
             <Button
               variant="ghost"
-              size="sm"
+              size="lg"
               onClick={() => setIsOpen(!isOpen)}
-              className="text-primary"
+              className="text-primary hover:bg-primary/10 p-2"
+              aria-label={isOpen ? "Close menu" : "Open menu"}
             >
-              {isOpen ? <X className="h-6 w-6" /> : <Menu className="h-6 w-6" />}
+              {isOpen ? <X className="h-7 w-7" /> : <Menu className="h-7 w-7" />}
             </Button>
           </div>
         </div>
 
         {/* Mobile Navigation */}
         {isOpen && (
-          <div className="md:hidden">
-            <div className="px-2 pt-2 pb-3 space-y-1 bg-card rounded-lg mt-2 shadow-medium">
+          <div className="md:hidden pb-4">
+            <div className="px-3 pt-3 pb-3 space-y-2 bg-background border border-border rounded-lg mt-2 shadow-strong">
               {navItems.map((item) => (
                 <Link
                   key={item.name}
                   to={item.path}
-                  className={`block px-3 py-2 text-base font-medium transition-colors hover:text-primary ${
-                    isActive(item.path) ? "text-primary bg-secondary" : "text-muted-foreground"
+                  className={`block px-4 py-3 text-base font-medium rounded-md transition-all ${
+                    isActive(item.path) 
+                      ? "text-primary bg-primary/10 border border-primary/20" 
+                      : "text-foreground hover:bg-secondary/80 hover:text-primary"
                   }`}
                   onClick={() => setIsOpen(false)}
                 >
                   {item.name}
                 </Link>
               ))}
-              <div className="px-3 py-2">
-                <Button variant="default" size="sm" className="w-full bg-gradient-primary">
+              <div className="pt-2">
+                <Button variant="default" size="lg" className="w-full bg-gradient-primary text-base font-semibold py-6">
                   Book Consultation
                 </Button>
               </div>
